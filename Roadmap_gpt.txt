@@ -1,0 +1,66 @@
+⚡ Energy Data Analytics & Grid Optimization – Learning Roadmap
+👋 Hi, I’m on a journey to become proficient in data analytics with a specialization in grid optimization for the energy sector. Here’s the roadmap I’ve followed — and what’s coming next.
+
+🔹 Stage 1: Python & Data Foundations
+Focus: Data wrangling, time-based analysis, and visualization
+
+📊 Cleaned and explored time-series datasets using pandas & matplotlib
+
+🧮 Built load profiles with hourly, daily, and seasonal breakdowns
+
+✅ Delivered: Basic EDA and hourly load plots
+
+🔹 Stage 2: Energy Data Visualization & Clustering
+Focus: Understanding building behavior through data
+
+📈 Built calendar heatmaps and weekday/weekend comparison plots
+
+🧠 Applied K-Means clustering to segment buildings by load shape
+
+🗂️ Compared load profiles (residential, office, parking garage)
+
+✅ Delivered: Load heatmaps, PCA cluster visualization, insights into building usage patterns
+
+🔹 Stage 3: Load Forecasting & Optimization
+Focus: Predictive modeling and cost-aware decision making
+
+🔮 Forecasted electricity demand using Prophet and XGBoost
+
+📉 Evaluated models with RMSE, MAE, MAPE
+
+💡 Optimized building load to minimize TOU energy costs
+
+Manual load shifting (heuristics)
+
+Linear programming (cvxpy) for optimal scheduling
+
+✅ Delivered:
+
+ Forecast vs actual plots
+
+ Load scheduling optimization plots
+
+ Cost savings summary
+
+🚀 Stage 4: Grid-Aware Optimization & Intelligent Control
+Focus: Multi-agent coordination, predictive control, and automation
+
+🔄 Coming Next:
+
+🔋 Co-optimizing storage + flexible loads under grid constraints
+
+🧠 Model Predictive Control (MPC) using real-time forecasts
+
+🏘️ Multi-building optimization to flatten grid-wide peaks
+
+🤖 Reinforcement Learning for smart building control agents
+
+⚙️ Simulations with simpy or PyPSA to test grid scenarios
+
+🧪 Project ideas underway:
+
+TOU cost minimization with solar + battery
+
+Dynamic HVAC scheduling using MPC
+
+RL agent for demand response automation
